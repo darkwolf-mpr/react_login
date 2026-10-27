@@ -1,0 +1,15 @@
+.btn {
+    padding: 0.8rem 1.3rem;
+    font: inherit;
+    font-weight: 600;
+    border: 1px solid transparent;
+    cursor: radius;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+}
+
+.btn:focus-visible{ outline: 2px solid pink; outline-offset: 2px;}
+.btn:disabled{ opacity: 0.6; cursor:not-allowed; }
+
+.btn--primary{ background: rgb(48, 48, 144); color: #fff;}
+.btn--secondary{ background: rgb(26, 26, 26); color: #fff;}

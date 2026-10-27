@@ -1,19 +1,13 @@
 import { useState } from "react";
 
 import './App.css';
-import ProductForm from './components/ProductForm';
+import LoginForm from "./LoginForm/LoginForm";
 
 function App() {
 
   return (
     <>
-      <h1>Gestionar productos</h1>
-      <ProductForm
-        onAddProduct=""
-        onUpdateProduct=""
-        onCancelEdit=""
-        productoEditado=""
-      />
+      <LoginForm/>
     </>
   )
 }
